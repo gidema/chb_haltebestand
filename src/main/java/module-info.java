@@ -2,7 +2,7 @@
  * 
  */
 module chbhaltebestand {
-    requires jakarta.xml.bind;
+    requires transitive jakarta.xml.bind;
 //    requires jakarta.xml;
     requires jakarta.activation;
     requires java.base;

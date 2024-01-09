@@ -3,11 +3,16 @@
   <groupId>nl.gertjanidema.nlgeo</groupId>
   <artifactId>chbhaltebestand</artifactId>
   <version>8.4.2</version>
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <relativePath />
+    <version>3.2.1</version>
+  </parent>
   <dependencies>
     <dependency>
-    	<groupId>jakarta.xml.bind</groupId>
-    	<artifactId>jakarta.xml.bind-api</artifactId>
-    	<version>4.0.1</version>
+      <groupId>jakarta.xml.bind</groupId>
+      <artifactId>jakarta.xml.bind-api</artifactId>
     </dependency>
   </dependencies>
   <build>
@@ -15,7 +20,6 @@
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.1</version>
         <configuration>
           <release>17</release>
         </configuration>
