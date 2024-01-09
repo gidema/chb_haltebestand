@@ -5,5 +5,5 @@
 // Generated on: 2024.01.03 at 12:38:54 PM UTC 
 //
 
-@javax.xml.bind.annotation.XmlSchema(namespace = "http://bison.connekt.nl/tmi8/chb/msg", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
+@jakarta.xml.bind.annotation.XmlSchema(namespace = "http://bison.connekt.nl/tmi8/chb/msg", elementFormDefault = jakarta.xml.bind.annotation.XmlNsForm.QUALIFIED)
 package nl.chb;
