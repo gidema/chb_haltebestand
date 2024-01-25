@@ -8,12 +8,13 @@
 
 package nl.chb;
 
+import java.util.GregorianCalendar;
+
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 import jakarta.xml.bind.annotation.XmlType;
-import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
@@ -59,13 +60,13 @@ import javax.xml.datatype.XMLGregorianCalendar;
 public class Stopplacename {
 
     @XmlElement(required = true)
-    protected XMLGregorianCalendar validfrom;
+    protected GregorianCalendar validfrom;
     @XmlElement(required = true)
     protected String publicname;
     @XmlElement(required = true)
     protected String town;
     @XmlElement(required = true)
-    protected XMLGregorianCalendar mutationdate;
+    protected GregorianCalendar mutationdate;
     protected String publicnamemedium;
     protected String publicnamelong;
     protected String description;
@@ -77,10 +78,10 @@ public class Stopplacename {
      * 
      * @return
      *     possible object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link GregorianCalendar }
      *     
      */
-    public XMLGregorianCalendar getValidfrom() {
+    public GregorianCalendar getValidfrom() {
         return validfrom;
     }
 
@@ -89,10 +90,10 @@ public class Stopplacename {
      * 
      * @param value
      *     allowed object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link GregorianCalendar }
      *     
      */
-    public void setValidfrom(XMLGregorianCalendar value) {
+    public void setValidfrom(GregorianCalendar value) {
         this.validfrom = value;
     }
 
@@ -149,10 +150,10 @@ public class Stopplacename {
      * 
      * @return
      *     possible object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link GregorianCalendar }
      *     
      */
-    public XMLGregorianCalendar getMutationdate() {
+    public GregorianCalendar getMutationdate() {
         return mutationdate;
     }
 
@@ -161,10 +162,10 @@ public class Stopplacename {
      * 
      * @param value
      *     allowed object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link GregorianCalendar }
      *     
      */
-    public void setMutationdate(XMLGregorianCalendar value) {
+    public void setMutationdate(GregorianCalendar value) {
         this.mutationdate = value;
     }
 

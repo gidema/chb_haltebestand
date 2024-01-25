@@ -8,12 +8,13 @@
 
 package nl.chb;
 
+import java.util.GregorianCalendar;
+
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 import jakarta.xml.bind.annotation.XmlType;
-import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
@@ -49,23 +50,23 @@ import javax.xml.datatype.XMLGregorianCalendar;
 public class Stopplacephotodata {
 
     @XmlElement(required = true)
-    protected XMLGregorianCalendar stopplaceimagedate;
+    protected GregorianCalendar stopplaceimagedate;
     @XmlElement(required = true)
     protected String stopplaceimageurl;
     @XmlElement(required = true)
     protected String stopplaceimagedescription;
     @XmlElement(required = true)
-    protected XMLGregorianCalendar mutationdate;
+    protected GregorianCalendar mutationdate;
 
     /**
      * Gets the value of the stopplaceimagedate property.
      * 
      * @return
      *     possible object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link GregorianCalendar }
      *     
      */
-    public XMLGregorianCalendar getStopplaceimagedate() {
+    public GregorianCalendar getStopplaceimagedate() {
         return stopplaceimagedate;
     }
 
@@ -74,10 +75,10 @@ public class Stopplacephotodata {
      * 
      * @param value
      *     allowed object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link GregorianCalendar }
      *     
      */
-    public void setStopplaceimagedate(XMLGregorianCalendar value) {
+    public void setStopplaceimagedate(GregorianCalendar value) {
         this.stopplaceimagedate = value;
     }
 
@@ -134,10 +135,10 @@ public class Stopplacephotodata {
      * 
      * @return
      *     possible object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link GregorianCalendar }
      *     
      */
-    public XMLGregorianCalendar getMutationdate() {
+    public GregorianCalendar getMutationdate() {
         return mutationdate;
     }
 
@@ -146,10 +147,10 @@ public class Stopplacephotodata {
      * 
      * @param value
      *     allowed object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link GregorianCalendar }
      *     
      */
-    public void setMutationdate(XMLGregorianCalendar value) {
+    public void setMutationdate(GregorianCalendar value) {
         this.mutationdate = value;
     }
 

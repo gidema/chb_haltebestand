@@ -9,12 +9,13 @@
 package nl.chb;
 
 import java.math.BigDecimal;
+import java.util.GregorianCalendar;
+
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 import jakarta.xml.bind.annotation.XmlType;
-import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
@@ -90,7 +91,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
 public class Quayaccessibilityadaptions {
 
     @XmlElement(required = true)
-    protected XMLGregorianCalendar validfrom;
+    protected GregorianCalendar validfrom;
     @XmlElement(required = true)
     protected String quayshapetype;
     @XmlElement(required = true)
@@ -101,7 +102,7 @@ public class Quayaccessibilityadaptions {
     protected boolean groundsurfaceindicator;
     protected boolean stopplaceaccessroute;
     @XmlElement(required = true)
-    protected XMLGregorianCalendar mutationdate;
+    protected GregorianCalendar mutationdate;
     protected BigDecimal embaymentwidth;
     protected BigDecimal bayentranceangles;
     protected BigDecimal bayexitangles;
@@ -123,10 +124,10 @@ public class Quayaccessibilityadaptions {
      * 
      * @return
      *     possible object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link GregorianCalendar }
      *     
      */
-    public XMLGregorianCalendar getValidfrom() {
+    public GregorianCalendar getValidfrom() {
         return validfrom;
     }
 
@@ -135,10 +136,10 @@ public class Quayaccessibilityadaptions {
      * 
      * @param value
      *     allowed object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link GregorianCalendar }
      *     
      */
-    public void setValidfrom(XMLGregorianCalendar value) {
+    public void setValidfrom(GregorianCalendar value) {
         this.validfrom = value;
     }
 
@@ -275,10 +276,10 @@ public class Quayaccessibilityadaptions {
      * 
      * @return
      *     possible object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link GregorianCalendar }
      *     
      */
-    public XMLGregorianCalendar getMutationdate() {
+    public GregorianCalendar getMutationdate() {
         return mutationdate;
     }
 
@@ -287,10 +288,10 @@ public class Quayaccessibilityadaptions {
      * 
      * @param value
      *     allowed object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link GregorianCalendar }
      *     
      */
-    public void setMutationdate(XMLGregorianCalendar value) {
+    public void setMutationdate(GregorianCalendar value) {
         this.mutationdate = value;
     }
 

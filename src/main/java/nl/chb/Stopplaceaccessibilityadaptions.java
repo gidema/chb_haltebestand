@@ -9,12 +9,13 @@
 package nl.chb;
 
 import java.math.BigDecimal;
+import java.util.GregorianCalendar;
+
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 import jakarta.xml.bind.annotation.XmlType;
-import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
@@ -58,11 +59,11 @@ import javax.xml.datatype.XMLGregorianCalendar;
 public class Stopplaceaccessibilityadaptions {
 
     @XmlElement(required = true)
-    protected XMLGregorianCalendar validfrom;
+    protected GregorianCalendar validfrom;
     @XmlElement(required = true)
     protected BigDecimal heightwithenvironment;
     @XmlElement(required = true)
-    protected XMLGregorianCalendar mutationdate;
+    protected GregorianCalendar mutationdate;
     protected Boolean environmentaccessroute;
     protected Boolean guidelineconnection;
     protected Boolean ramp;
@@ -74,10 +75,10 @@ public class Stopplaceaccessibilityadaptions {
      * 
      * @return
      *     possible object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link GregorianCalendar }
      *     
      */
-    public XMLGregorianCalendar getValidfrom() {
+    public GregorianCalendar getValidfrom() {
         return validfrom;
     }
 
@@ -86,10 +87,10 @@ public class Stopplaceaccessibilityadaptions {
      * 
      * @param value
      *     allowed object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link GregorianCalendar }
      *     
      */
-    public void setValidfrom(XMLGregorianCalendar value) {
+    public void setValidfrom(GregorianCalendar value) {
         this.validfrom = value;
     }
 
@@ -122,10 +123,10 @@ public class Stopplaceaccessibilityadaptions {
      * 
      * @return
      *     possible object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link GregorianCalendar }
      *     
      */
-    public XMLGregorianCalendar getMutationdate() {
+    public GregorianCalendar getMutationdate() {
         return mutationdate;
     }
 
@@ -134,10 +135,10 @@ public class Stopplaceaccessibilityadaptions {
      * 
      * @param value
      *     allowed object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link GregorianCalendar }
      *     
      */
-    public void setMutationdate(XMLGregorianCalendar value) {
+    public void setMutationdate(GregorianCalendar value) {
         this.mutationdate = value;
     }
 

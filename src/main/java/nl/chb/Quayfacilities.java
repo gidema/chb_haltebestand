@@ -8,12 +8,13 @@
 
 package nl.chb;
 
+import java.util.GregorianCalendar;
+
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 import jakarta.xml.bind.annotation.XmlType;
-import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
@@ -81,11 +82,11 @@ import javax.xml.datatype.XMLGregorianCalendar;
 public class Quayfacilities {
 
     @XmlElement(required = true)
-    protected XMLGregorianCalendar validfrom;
+    protected GregorianCalendar validfrom;
     protected boolean stopsign;
     protected boolean audiobutton;
     @XmlElement(required = true)
-    protected XMLGregorianCalendar mutationdate;
+    protected GregorianCalendar mutationdate;
     protected String stopsigntype;
     protected Boolean shelter;
     protected Boolean shelterpublicity;
@@ -108,10 +109,10 @@ public class Quayfacilities {
      * 
      * @return
      *     possible object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link GregorianCalendar }
      *     
      */
-    public XMLGregorianCalendar getValidfrom() {
+    public GregorianCalendar getValidfrom() {
         return validfrom;
     }
 
@@ -120,10 +121,10 @@ public class Quayfacilities {
      * 
      * @param value
      *     allowed object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link GregorianCalendar }
      *     
      */
-    public void setValidfrom(XMLGregorianCalendar value) {
+    public void setValidfrom(GregorianCalendar value) {
         this.validfrom = value;
     }
 
@@ -164,10 +165,10 @@ public class Quayfacilities {
      * 
      * @return
      *     possible object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link GregorianCalendar }
      *     
      */
-    public XMLGregorianCalendar getMutationdate() {
+    public GregorianCalendar getMutationdate() {
         return mutationdate;
     }
 
@@ -176,10 +177,10 @@ public class Quayfacilities {
      * 
      * @param value
      *     allowed object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link GregorianCalendar }
      *     
      */
-    public void setMutationdate(XMLGregorianCalendar value) {
+    public void setMutationdate(GregorianCalendar value) {
         this.mutationdate = value;
     }
 

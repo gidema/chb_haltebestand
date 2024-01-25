@@ -9,10 +9,11 @@
 package nl.chb;
 
 import java.math.BigDecimal;
+import java.util.GregorianCalendar;
+
 import jakarta.xml.bind.JAXBElement;
 import jakarta.xml.bind.annotation.XmlElementDecl;
 import jakarta.xml.bind.annotation.XmlRegistry;
-import javax.xml.datatype.XMLGregorianCalendar;
 import javax.xml.namespace.QName;
 
 
@@ -486,16 +487,16 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link XMLGregorianCalendar }{@code >}
+     * Create an instance of {@link JAXBElement }{@code <}{@link GregorianCalendar }{@code >}
      * 
      * @param value
      *     Java instance representing xml element's value.
      * @return
-     *     the new instance of {@link JAXBElement }{@code <}{@link XMLGregorianCalendar }{@code >}
+     *     the new instance of {@link JAXBElement }{@code <}{@link GregorianCalendar }{@code >}
      */
     @XmlElementDecl(namespace = "http://bison.connekt.nl/tmi8/chb/msg", name = "validfrom")
-    public JAXBElement<XMLGregorianCalendar> createValidfrom(XMLGregorianCalendar value) {
-        return new JAXBElement<XMLGregorianCalendar>(_Validfrom_QNAME, XMLGregorianCalendar.class, null, value);
+    public JAXBElement<GregorianCalendar> createValidfrom(GregorianCalendar value) {
+        return new JAXBElement<GregorianCalendar>(_Validfrom_QNAME, GregorianCalendar.class, null, value);
     }
 
     /**
@@ -551,16 +552,16 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link XMLGregorianCalendar }{@code >}
+     * Create an instance of {@link JAXBElement }{@code <}{@link GregorianCalendar }{@code >}
      * 
      * @param value
      *     Java instance representing xml element's value.
      * @return
-     *     the new instance of {@link JAXBElement }{@code <}{@link XMLGregorianCalendar }{@code >}
+     *     the new instance of {@link JAXBElement }{@code <}{@link GregorianCalendar }{@code >}
      */
     @XmlElementDecl(namespace = "http://bison.connekt.nl/tmi8/chb/msg", name = "mutationdate")
-    public JAXBElement<XMLGregorianCalendar> createMutationdate(XMLGregorianCalendar value) {
-        return new JAXBElement<XMLGregorianCalendar>(_Mutationdate_QNAME, XMLGregorianCalendar.class, null, value);
+    public JAXBElement<GregorianCalendar> createMutationdate(GregorianCalendar value) {
+        return new JAXBElement<GregorianCalendar>(_Mutationdate_QNAME, GregorianCalendar.class, null, value);
     }
 
     /**
@@ -1578,16 +1579,16 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link XMLGregorianCalendar }{@code >}
+     * Create an instance of {@link JAXBElement }{@code <}{@link GregorianCalendar }{@code >}
      * 
      * @param value
      *     Java instance representing xml element's value.
      * @return
-     *     the new instance of {@link JAXBElement }{@code <}{@link XMLGregorianCalendar }{@code >}
+     *     the new instance of {@link JAXBElement }{@code <}{@link GregorianCalendar }{@code >}
      */
     @XmlElementDecl(namespace = "http://bison.connekt.nl/tmi8/chb/msg", name = "quayimagedate")
-    public JAXBElement<XMLGregorianCalendar> createQuayimagedate(XMLGregorianCalendar value) {
-        return new JAXBElement<XMLGregorianCalendar>(_Quayimagedate_QNAME, XMLGregorianCalendar.class, null, value);
+    public JAXBElement<GregorianCalendar> createQuayimagedate(GregorianCalendar value) {
+        return new JAXBElement<GregorianCalendar>(_Quayimagedate_QNAME, GregorianCalendar.class, null, value);
     }
 
     /**
@@ -1721,16 +1722,16 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link XMLGregorianCalendar }{@code >}
+     * Create an instance of {@link JAXBElement }{@code <}{@link GregorianCalendar }{@code >}
      * 
      * @param value
      *     Java instance representing xml element's value.
      * @return
-     *     the new instance of {@link JAXBElement }{@code <}{@link XMLGregorianCalendar }{@code >}
+     *     the new instance of {@link JAXBElement }{@code <}{@link GregorianCalendar }{@code >}
      */
     @XmlElementDecl(namespace = "http://bison.connekt.nl/tmi8/chb/msg", name = "stopplaceimagedate")
-    public JAXBElement<XMLGregorianCalendar> createStopplaceimagedate(XMLGregorianCalendar value) {
-        return new JAXBElement<XMLGregorianCalendar>(_Stopplaceimagedate_QNAME, XMLGregorianCalendar.class, null, value);
+    public JAXBElement<GregorianCalendar> createStopplaceimagedate(GregorianCalendar value) {
+        return new JAXBElement<GregorianCalendar>(_Stopplaceimagedate_QNAME, GregorianCalendar.class, null, value);
     }
 
     /**
