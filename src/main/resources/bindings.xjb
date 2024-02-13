@@ -1,0 +1,13 @@
+<bindings xmlns="https://jakarta.ee/xml/ns/jaxb" version="3.0"
+          xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc">
+
+  <globalBindings>
+    <xjc:javaType name="java.time.LocalDate" xmlType="xs:date"
+      adapter="nl.chb.binding.LocalDateXmlAdapter" />
+    <xjc:javaType name="java.time.LocalDateTime" xmlType="xs:dateTime"
+      adapter="nl.chb.binding.LocalDateTimeXmlAdapter" />
+  </globalBindings>
+
+  ...
+
+</bindings>
